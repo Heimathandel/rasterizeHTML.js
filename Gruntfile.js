@@ -5,11 +5,12 @@ module.exports = function (grunt) {
         jasmine: {
             src: [
                 'build/dependencies/*.js',
-                'node_modules/xmlserializer/xmlserializer.js',
+                'node_modules/ayepromise/ayepromise.js',
                 'src/util.js',
                 'src/proxies.js',
                 'src/documentUtil.js',
                 'src/documentHelper.js',
+                'src/mediaQueryHelper.js',
                 'src/browser.js',
                 'src/svg2image.js',
                 'src/document2svg.js',
@@ -19,8 +20,7 @@ module.exports = function (grunt) {
             options: {
                 specs: 'test/specs/*.js',
                 vendor: [
-                    'node_modules/imagediff/imagediff.js',
-                    'node_modules/es6-promise/dist/es6-promise.auto.js'
+                    'node_modules/imagediff/imagediff.js'
                 ],
                 helpers: [
                     'test/helpers.js',
@@ -33,6 +33,15 @@ module.exports = function (grunt) {
             }
         },
         browserify: {
+            xmlserializer: {
+                src: 'node_modules/xmlserializer/lib/serializer.js',
+                dest: 'build/dependencies/xmlserializer.js',
+                options: {
+                    browserifyOptions: {
+                        standalone: 'xmlserializer'
+                    }
+                }
+            },
             sanedomparsererror: {
                 src: 'node_modules/sane-domparser-error/index.js',
                 dest: 'build/dependencies/sane-domparser-error.js',
@@ -48,6 +57,15 @@ module.exports = function (grunt) {
                 options: {
                     browserifyOptions: {
                         standalone: 'url'
+                    }
+                }
+            },
+            cssmediaquery: {
+                src: 'node_modules/css-mediaquery/index.js',
+                dest: 'build/dependencies/cssmediaquery.js',
+                options: {
+                    browserifyOptions: {
+                        standalone: 'cssMediaQuery'
                     }
                 }
             },
@@ -80,9 +98,9 @@ module.exports = function (grunt) {
                 objectToExport: 'rasterizeHTML',
                 indent: '    ',
                 deps: {
-                    'default': ['url', 'xmlserializer', 'sanedomparsererror', 'inlineresources'],
-                    cjs: ['url', 'xmlserializer', 'sane-domparser-error', 'inlineresources'],
-                    amd: ['url', 'xmlserializer', 'sane-domparser-error', 'inlineresources']
+                    'default': ['url', 'cssMediaQuery', 'xmlserializer', 'sanedomparsererror', 'ayepromise', 'inlineresources'],
+                    cjs: ['url', 'css-mediaquery', 'xmlserializer', 'sane-domparser-error', 'ayepromise', 'inlineresources'],
+                    amd: ['url', 'css-mediaquery', 'xmlserializer', 'sane-domparser-error', 'ayepromise', 'inlineresources']
                 }
             }
         },
@@ -93,6 +111,7 @@ module.exports = function (grunt) {
                     'src/proxies.js',
                     'src/documentUtil.js',
                     'src/documentHelper.js',
+                    'src/mediaQueryHelper.js',
                     'src/browser.js',
                     'src/svg2image.js',
                     'src/document2svg.js',
@@ -111,17 +130,6 @@ module.exports = function (grunt) {
                 },
                 src: ['build/rasterizeHTML.umd.js'],
                 dest: 'dist/<%= pkg.title %>'
-            },
-            types: {
-                options: {
-                    banner:'/*! <%= pkg.title || pkg.name %> - v<%= pkg.version %> - ' +
-                        '<%= grunt.template.today("yyyy-mm-dd") %>\n' +
-                        '* <%= pkg.homepage %>\n' +
-                        '* Copyright (c) <%= grunt.template.today("yyyy") %> <%= pkg.author.name %>;' +
-                        ' Licensed <%= pkg.license %> */\n'
-                },
-                src: 'src/typings.d.ts',
-                dest: '<%=pkg.types%>'
             }
         },
         uglify: {
@@ -146,7 +154,9 @@ module.exports = function (grunt) {
                         ' Licensed <%= pkg.license %> */\n' +
                         '/* Integrated dependencies:\n' +
                         ' * url (MIT License),\n' +
+                        ' * css-mediaquery (BSD License),\n' +
                         ' * CSSOM.js (MIT License),\n' +
+                        ' * ayepromise (BSD License & WTFPL),\n' +
                         ' * xmlserializer (MIT License),\n' +
                         ' * sane-domparser-error (BSD License),\n' +
                         ' * css-font-face-src (BSD License),\n' +
@@ -194,6 +204,8 @@ module.exports = function (grunt) {
 
     grunt.registerTask('deps', [
         'browserify:url',
+        'browserify:cssmediaquery',
+        'browserify:xmlserializer',
         'browserify:sanedomparsererror',
         'browserify:inlineresources'
     ]);
@@ -208,7 +220,6 @@ module.exports = function (grunt) {
         'concat:one',
         'umd',
         'concat:dist',
-        'concat:types',
         'browserify:allinone',
         'uglify'
     ]);

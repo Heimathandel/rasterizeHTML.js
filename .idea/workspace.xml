@@ -1,91 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c9687b6-a382-40eb-9815-b20df070ec00" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/.jshintignore" afterPath="$PROJECT_DIR$/.jshintignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/.npmignore" afterPath="$PROJECT_DIR$/.npmignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/LICENSE" afterPath="$PROJECT_DIR$/LICENSE" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/Vagrantfile" afterPath="$PROJECT_DIR$/Vagrantfile" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/dist/rasterizeHTML.allinone.js" afterPath="$PROJECT_DIR$/dist/rasterizeHTML.allinone.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/dist/rasterizeHTML.js" afterPath="$PROJECT_DIR$/dist/rasterizeHTML.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/dist/rasterizeHTML.min.js" afterPath="$PROJECT_DIR$/dist/rasterizeHTML.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/examples/ghostscript_tiger.png" afterPath="$PROJECT_DIR$/examples/ghostscript_tiger.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/examples/ghostscript_tiger_2x.png" afterPath="$PROJECT_DIR$/examples/ghostscript_tiger_2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/examples/index.html" afterPath="$PROJECT_DIR$/examples/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/examples/pseudoClasses.html" afterPath="$PROJECT_DIR$/examples/pseudoClasses.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/examples/retina.html" afterPath="$PROJECT_DIR$/examples/retina.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/go" afterPath="$PROJECT_DIR$/go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/node_modules/punycode/LICENSE-MIT.txt" afterPath="$PROJECT_DIR$/node_modules/punycode/LICENSE-MIT.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/node_modules/punycode/README.md" afterPath="$PROJECT_DIR$/node_modules/punycode/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/node_modules/punycode/package.json" afterPath="$PROJECT_DIR$/node_modules/punycode/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/node_modules/punycode/punycode.js" afterPath="$PROJECT_DIR$/node_modules/punycode/punycode.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/node_modules/url/.npmignore" afterPath="$PROJECT_DIR$/node_modules/url/.npmignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/node_modules/url/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/url/.travis.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/node_modules/url/.zuul.yml" afterPath="$PROJECT_DIR$/node_modules/url/.zuul.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/node_modules/url/LICENSE" afterPath="$PROJECT_DIR$/node_modules/url/LICENSE" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/node_modules/url/README.md" afterPath="$PROJECT_DIR$/node_modules/url/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/node_modules/url/package.json" afterPath="$PROJECT_DIR$/node_modules/url/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/node_modules/url/test.js" afterPath="$PROJECT_DIR$/node_modules/url/test.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/node_modules/url/url.js" afterPath="$PROJECT_DIR$/node_modules/url/url.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/src/.jshintrc" afterPath="$PROJECT_DIR$/src/.jshintrc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/src/browser.js" afterPath="$PROJECT_DIR$/src/browser.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/src/document2svg.js" afterPath="$PROJECT_DIR$/src/document2svg.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/src/documentHelper.js" afterPath="$PROJECT_DIR$/src/documentHelper.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/src/documentUtil.js" afterPath="$PROJECT_DIR$/src/documentUtil.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/src/mediaQueryHelper.js" afterPath="$PROJECT_DIR$/src/mediaQueryHelper.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/src/proxies.js" afterPath="$PROJECT_DIR$/src/proxies.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/src/rasterize.js" afterPath="$PROJECT_DIR$/src/rasterize.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/src/svg2image.js" afterPath="$PROJECT_DIR$/src/svg2image.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/src/typings.d.ts" afterPath="$PROJECT_DIR$/src/typings.d.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/src/util.js" afterPath="$PROJECT_DIR$/src/util.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/.jshintrc" afterPath="$PROJECT_DIR$/test/.jshintrc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/SpecRunner.html" afterPath="$PROJECT_DIR$/test/SpecRunner.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/diffHelper.js" afterPath="$PROJECT_DIR$/test/diffHelper.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/diffHelperPage.html" afterPath="$PROJECT_DIR$/test/diffHelperPage.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/fixtures/ajax.html" afterPath="$PROJECT_DIR$/test/fixtures/ajax.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/fixtures/ajaxContent.txt" afterPath="$PROJECT_DIR$/test/fixtures/ajaxContent.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/fixtures/green.png" afterPath="$PROJECT_DIR$/test/fixtures/green.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/fixtures/hover.html" afterPath="$PROJECT_DIR$/test/fixtures/hover.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/fixtures/image.html" afterPath="$PROJECT_DIR$/test/fixtures/image.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/fixtures/import_test.css" afterPath="$PROJECT_DIR$/test/fixtures/import_test.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/fixtures/invalidInput.html" afterPath="$PROJECT_DIR$/test/fixtures/invalidInput.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/fixtures/invalidInput.xhtml" afterPath="$PROJECT_DIR$/test/fixtures/invalidInput.xhtml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/fixtures/nonUTF8Encoding.html" afterPath="$PROJECT_DIR$/test/fixtures/nonUTF8Encoding.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/fixtures/raphaelicons-license.txt" afterPath="$PROJECT_DIR$/test/fixtures/raphaelicons-license.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/fixtures/raphaelicons-webfont.woff" afterPath="$PROJECT_DIR$/test/fixtures/raphaelicons-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/fixtures/rednblue.png" afterPath="$PROJECT_DIR$/test/fixtures/rednblue.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/fixtures/test.css" afterPath="$PROJECT_DIR$/test/fixtures/test.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/fixtures/test.html" afterPath="$PROJECT_DIR$/test/fixtures/test.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/fixtures/testFragment.html" afterPath="$PROJECT_DIR$/test/fixtures/testFragment.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/fixtures/testResult.png" afterPath="$PROJECT_DIR$/test/fixtures/testResult.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/fixtures/testScaled50PercentWithJs.html" afterPath="$PROJECT_DIR$/test/fixtures/testScaled50PercentWithJs.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/fixtures/testWithJs.js" afterPath="$PROJECT_DIR$/test/fixtures/testWithJs.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/gruntpath.js" afterPath="$PROJECT_DIR$/test/gruntpath.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/helpers.js" afterPath="$PROJECT_DIR$/test/helpers.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/integrationTestPage.html" afterPath="$PROJECT_DIR$/test/integrationTestPage.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/manualIntegrationTestForWebkit.html" afterPath="$PROJECT_DIR$/test/manualIntegrationTestForWebkit.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/performance.html" afterPath="$PROJECT_DIR$/test/performance.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/phantomIntegrationTest.js" afterPath="$PROJECT_DIR$/test/phantomIntegrationTest.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/specs/BrowserSpec.js" afterPath="$PROJECT_DIR$/test/specs/BrowserSpec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/specs/Document2SvgSpec.js" afterPath="$PROJECT_DIR$/test/specs/Document2SvgSpec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/specs/DocumentHelperSpec.js" afterPath="$PROJECT_DIR$/test/specs/DocumentHelperSpec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/specs/DocumentUtilSpec.js" afterPath="$PROJECT_DIR$/test/specs/DocumentUtilSpec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/specs/IndexSpec.js" afterPath="$PROJECT_DIR$/test/specs/IndexSpec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/specs/IntegrationSpec.js" afterPath="$PROJECT_DIR$/test/specs/IntegrationSpec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/specs/MediaQueryHelperSpec.js" afterPath="$PROJECT_DIR$/test/specs/MediaQueryHelperSpec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/specs/ProxiesSpec.js" afterPath="$PROJECT_DIR$/test/specs/ProxiesSpec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/specs/RasterizeSpec.js" afterPath="$PROJECT_DIR$/test/specs/RasterizeSpec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/specs/Svg2ImageSpec.js" afterPath="$PROJECT_DIR$/test/specs/Svg2ImageSpec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/specs/UtilSpec.js" afterPath="$PROJECT_DIR$/test/specs/UtilSpec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/specs/diffHelperSpec.js" afterPath="$PROJECT_DIR$/test/specs/diffHelperSpec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/test/testHelper.js" afterPath="$PROJECT_DIR$/test/testHelper.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rasterizehtml/typings.d.ts" afterPath="$PROJECT_DIR$/typings.d.ts" />
-    </list>
+    <list default="true" id="4c9687b6-a382-40eb-9815-b20df070ec00" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -204,15 +120,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1518208064167</updated>
-      <workItem from="1518208066555" duration="2017000" />
+      <workItem from="1518208066555" duration="2411000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2017000" />
+    <option name="totallyTimeSpent" value="2411000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
