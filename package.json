@@ -1,35 +1,41 @@
 {
-  "name": "rasterizehtml",
-  "title": "rasterizeHTML.js",
-  "version": "1.2.4",
-  "description": "Renders HTML into the browser's canvas.",
-  "keywords": [
-    "canvas",
-    "HTML"
+  "_from": "git+https://github.com/Heimathandel/rasterizeHTML.js.git",
+  "_id": "rasterizehtml@1.2.4",
+  "_inBundle": false,
+  "_integrity": "sha1-tZtiT0QubvSGrRh9B62j3s/qy/0=",
+  "_location": "/rasterizehtml",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/Heimathandel/rasterizeHTML.js",
+    "rawSpec": "https://github.com/Heimathandel/rasterizeHTML.js",
+    "saveSpec": "git+https://github.com/Heimathandel/rasterizeHTML.js.git",
+    "fetchSpec": "https://github.com/Heimathandel/rasterizeHTML.js.git",
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
   ],
-  "homepage": "http://www.github.com/cburgmer/rasterizeHTML.js",
-  "bugs": "https://github.com/cburgmer/rasterizeHTML.js/issues",
-  "license": "MIT",
+  "_resolved": "git+https://github.com/Heimathandel/rasterizeHTML.js.git#ef3c2e1801704e9f7124e9f8987082bb25a17c33",
+  "_spec": "https://github.com/Heimathandel/rasterizeHTML.js",
+  "_where": "/Users/nilswidal/Documents/BubbleTree/BT",
   "author": {
     "name": "Christoph Burgmer",
     "email": "christoph.burgmer@gmail.com"
   },
-  "directories": {
-    "lib": "./src/",
-    "example": "./examples/"
+  "bugs": {
+    "url": "https://github.com/cburgmer/rasterizeHTML.js/issues"
   },
-  "main": "dist/rasterizeHTML.js",
-  "types": "dist/rasterizeHTML.d.ts",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/cburgmer/rasterizeHTML.js.git"
-  },
+  "bundleDependencies": false,
   "dependencies": {
     "inlineresources": "~0.4.0",
+    "sane-domparser-error": "~0.2.0",
     "url": "~0.11.0",
-    "xmlserializer": "~0.6.0",
-    "sane-domparser-error": "~0.2.0"
+    "xmlserializer": "~0.6.0"
   },
+  "deprecated": false,
+  "description": "Renders HTML into the browser's canvas.",
   "devDependencies": {
     "es6-promise": "^4.0.5",
     "grunt": "^1.0.0",
@@ -43,11 +49,30 @@
     "grunt-contrib-watch": "^1.0.0",
     "grunt-regex-check": "^0.1.9",
     "grunt-umd": "^2.4.0",
-    "imagediff": "git://github.com/cburgmer/js-imagediff#v1.1merged",
+    "imagediff": "git://github.com/cburgmer/js-imagediff.git#v1.1merged",
     "jasmine-core": "^2.5.0",
     "slimerjs": "~0.906.1"
   },
+  "directories": {
+    "lib": "./src/",
+    "example": "./examples/"
+  },
+  "homepage": "http://www.github.com/cburgmer/rasterizeHTML.js",
+  "keywords": [
+    "canvas",
+    "HTML"
+  ],
+  "license": "MIT",
+  "main": "dist/rasterizeHTML.js",
+  "name": "rasterizehtml",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cburgmer/rasterizeHTML.js.git"
+  },
   "scripts": {
     "test": "bash go --verbose"
-  }
+  },
+  "title": "rasterizeHTML.js",
+  "types": "dist/rasterizeHTML.d.ts",
+  "version": "1.2.4"
 }
